@@ -1,6 +1,6 @@
 "use strict";
 // QUESTION NO.23
-// Conditional Test 1); // True False Both
+// Conditional Test 1)  // True False Both
 let knife = "Sharp";
 // True Condition
 console.log("Is Knife == 'Sharp'? I predict its True");
@@ -8,10 +8,10 @@ console.log(knife == 'Sharp');
 //False Condition
 console.log("Is knife == Rusty? I Predict its False");
 console.log(knife == 'Rusty');
-// Conditional Test 2); // True False Both
+// Conditional Test 2)  // True False Both
 let money = 15000;
 // True Condition
-console.log("IS money == 15000? I predict its True");
+console.log("Is money == 15000? I predict its True");
 console.log(money == 15000);
 //False Condition
 console.log("Is money == 10000? Its False");
