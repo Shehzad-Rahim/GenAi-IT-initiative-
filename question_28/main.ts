@@ -17,5 +17,4 @@ if(age < 15){
     
 }else{
     console.log(`You are older than '18'`);
-    
 }
