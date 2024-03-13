@@ -1,4 +1,4 @@
-let numbers : number[] = [1,2,3,4,5,6,7,8,9];
+let numbers : number[] = [1,2,3,4,5,6,7,8,9,22];
 
 numbers.forEach(number => {
     let suffix
@@ -9,8 +9,6 @@ numbers.forEach(number => {
     } else if( number === 3){
         suffix = "rd"
     } else if ( number >= 4 && number <= 20) {
-        suffix = "th"
-    }
+        suffix = "th"}
     console.log(`${number}${suffix}`);
-    
 })
