@@ -6,6 +6,7 @@ function showMagicians(magicians:string[]){
         
     });
 }
+
 showMagicians(magicians);
 
 
