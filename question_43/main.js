@@ -18,10 +18,3 @@ console.log("Original magicians:");
 showMagicians(magicians);
 console.log("Great magicians:");
 showMagicians(greatMagicians);
-// function Great_magicians(magicians: string[]){
-//     for(let i = 0; i < magicians.length; i++){
-//         magicians[i] = magicians[i] + " The Great."
-//     }
-// }
-// Great_magicians(magicians);
-// showMagicians(magicians)
