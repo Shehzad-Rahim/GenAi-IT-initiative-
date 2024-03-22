@@ -10,4 +10,4 @@ let smartphon = {
         varient: "blue"
     }
 };
-console.log(`Complete details of ${smartphon.brand.concat(smartphon.model)} \n`, { smartphon });
+console.log(`Complete details of ${smartphon.brand.concat(smartphon.model)} \n`, smartphon);

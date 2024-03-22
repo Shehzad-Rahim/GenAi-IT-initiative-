@@ -4,5 +4,5 @@ function ObjWithDynamicKey(key, value) {
     dynamicObj[key] = value;
     return dynamicObj;
 }
-let userInterface = ObjWithDynamicKey("them", "Dark");
+let userInterface = ObjWithDynamicKey("them", "dark");
 console.log(userInterface);
