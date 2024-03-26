@@ -25,7 +25,7 @@ function printNumbersWithLet(){
             console.log("There are only 7 days in a week");
             
         }
-        
+            
     }
 }
 printNumbersWithLet();

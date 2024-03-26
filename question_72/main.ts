@@ -8,12 +8,9 @@ try {
     console.log(blockLet);
 } catch (error){
     console.log("`Blocklet` not accessible outside the block");
-    
 }
-
 try {
     console.log(blockConst);
 } catch (error){
-    console.log("`Blockconst` not accessible outside the block");
-    
+   console.log("`Blockconst` not accessible outside the block");    
 }
