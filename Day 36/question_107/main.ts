@@ -4,5 +4,5 @@ function isDivisibleByTwoAndThree(number: number): boolean {
   
 }
 
+console.log(isDivisibleByTwoAndThree(12));
 console.log(isDivisibleByTwoAndThree(16));
-console.log(isDivisibleByTwoAndThree(20));

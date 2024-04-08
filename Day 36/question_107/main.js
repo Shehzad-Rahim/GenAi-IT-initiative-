@@ -1,6 +1,6 @@
 "use strict";
-function getRandomColor() {
-    const color = '#' + Math.floor(Math.random() * 0xffffff).toString(20).padStart(6, '0');
-    return color;
+function isDivisibleByTwoAndThree(number) {
+    return number % 2 === 0 && number % 3 === 0;
 }
-console.log(getRandomColor());
+console.log(isDivisibleByTwoAndThree(12));
+console.log(isDivisibleByTwoAndThree(16));
