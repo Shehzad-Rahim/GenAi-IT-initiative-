@@ -1,6 +1,7 @@
 "use strict";
-function getRandomBoolean() {
-    return Math.random() > 0.5;
+function areStringEqualsIgnoreCase(str1, str2) {
+    return str1.toLowerCase() === str2.toLowerCase();
 }
 ;
-console.log(getRandomBoolean());
+console.log(areStringEqualsIgnoreCase('shehzad', 'ShEhzaD'));
+console.log(areStringEqualsIgnoreCase('rahim', 'raheems'));
