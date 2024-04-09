@@ -11,6 +11,5 @@ function assignGrade(score:number):string{
         return "F"
     }
 }
-
 console.log('Shehzad got',assignGrade(82));
 console.log('Salman got',assignGrade(68));
