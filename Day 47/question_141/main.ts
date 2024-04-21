@@ -1,6 +1,7 @@
 async function fetchData(){
 
   function fetchSomething(){
+    
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         resolve('Shehzad');    // this will work after 3 secends
