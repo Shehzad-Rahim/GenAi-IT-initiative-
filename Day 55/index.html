@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Day 55 Data Types and Alert , Prompt and Confirm -->
+
+    <script>
+
+         // alert , confirm and prompt
+
+         let name = prompt('Enter your name');
+        confirm('Are you sure you want to Add your name?')
+        alert(name);
+
+        // JavaScript does not detect type errors
+        let message = 'Hello world'
+        message = 12345
+
+        // Data Types in JavaScript
+
+        // Number
+        let age = 22;
+        age = 22.5;
+
+        alert(age)
+
+        // String
+        let myName = 'Rahim';
+        myName = "Shehzad";
+        alert(myName);
+        // Boolean
+        let hasKids = true;
+        hasKids = false;
+
+        let isGrater = 22 > 18
+        alert(isGrater)
+
+        // Null
+        let car = null;
+        alert(car)
+
+        //BigInteger
+        console.log(9007199254740991 + 1); // 9007199254740992
+        console.log(9007199254740991 + 2); // 9007199254740992 here value is still same bacause it the biggest integer value in java script
+        // to increase the value of biggest integer value we just put 'n' at the end of the integer value 
+
+        let num = 9007199254740991n + 4
+        alert(num); // 9007199254740995 here value is increased 
+
+        let salary;
+        alert(salary);
+
+        // Type of operator
+
+        let role = 'Software Engineer';
+        alert(typeof role)
+
+       
+    </script>
+</body>
+</html>
